@@ -1,5 +1,29 @@
-/* RESET & BASE */
-* {
+@import "tailwindcss";
+
+@theme {
+  --color-brand1: #87abaa;
+  --color-brand2: #283254;
+  --color-brand3: #f7ea3c;
+  --color-brand4: #989d82;
+  --color-brand5: #eef0f2;
+  --color-brand6: #2b2b2b;
+  --color-brand7: #ffffff;
+  --color-brand8: #000000;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-times: "Times New Roman", serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-poppins);
+  scroll-behavior: smooth;
+}
+
+/* RESET & BASE — scoped to .App to not leak into Tailwind components */
+.App * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

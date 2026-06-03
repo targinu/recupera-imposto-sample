@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /area-do-cliente/
+Disallow: /assistente-virtual/
+Allow: /
+
+Sitemap: https://recuperaimposto.com.br/sitemap.xml
